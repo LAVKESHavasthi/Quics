@@ -3,16 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>File Share</title>
+    <title>File Share - Sender</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <h1>Upload & Share</h1>
         <input type="file" id="file-input">
-        <button id="generate-link">Generate Link</button>
-        <textarea id="share-link" readonly placeholder="Your sharing link will appear here"></textarea>
+        <button id="generate-offer">Generate Offer</button>
+        <textarea id="offer" readonly placeholder="Offer will appear here"></textarea>
+        <h2>Paste Answer Below:</h2>
+        <textarea id="answer" placeholder="Paste the answer here"></textarea>
+        <button id="accept-answer">Accept Answer</button>
     </div>
-    <script src="app.js"></script>
+    <script src="sender.js"></script>
 </body>
 </html>
