@@ -3,14 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Receive File</title>
+    <title>File Share - Receiver</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h1>Receiving File...</h1>
-        <p id="status">Waiting for connection...</p>
+        <h1>Receive File</h1>
+        <h2>Paste Offer Below:</h2>
+        <textarea id="offer" placeholder="Paste the offer here"></textarea>
+        <button id="generate-answer">Generate Answer</button>
+        <textarea id="answer" readonly placeholder="Answer will appear here"></textarea>
     </div>
-    <script src="app.js"></script>
+    <script src="receiver.js"></script>
 </body>
 </html>
